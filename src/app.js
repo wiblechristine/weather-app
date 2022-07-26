@@ -115,3 +115,4 @@ function formatDate(timestamp) {
   form.addEventListener("submit", handleSubmit);
   
   search("New York");
+  
