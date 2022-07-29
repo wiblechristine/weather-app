@@ -1,13 +1,25 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    background-color: #F5F7F9;
   }
   
   h1 {
-    color: #878787;
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 28px;
+    color: #434242;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 32px;
     margin-bottom: 0;
+  }
+
+  input.btn.btn-primary.w-100 {
+    background-color: #EC6E4C;
+    border-color: #EC6E4C;
+  }
+
+  input.btn.btn-primary.w-100:hover{
+    cursor: pointer;
+    background-color: #93442e;
+    border-color: #93442e;
   }
   
   ul {
@@ -19,11 +31,10 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  
-    color: rgb(135, 135, 135);
+    color: #434242;
     font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
+    font-weight: 500;
+    line-height: 23px;
   }
   
   li:first-letter {
@@ -37,8 +48,12 @@ body {
   
   .weather-app {
     padding: 20px;
-    border: 1px solid #dadde1;
+    color: #434242;
+    border: 1px solid;
     border-radius: 5px;
+    box-shadow: 5px 10px #434242;
+    background-color: #FFFFFF;
+    
   }
   
   .overview {
@@ -91,3 +106,6 @@ body {
   .weather-forecast-temperatures {
     font-size: 13px;
   }
+
+  a
+  { color:#EC6E4C;}
