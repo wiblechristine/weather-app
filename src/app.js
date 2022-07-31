@@ -116,11 +116,3 @@ function formatDate(timestamp) {
   
   search("New York");
 
-  document.getElementById('search-form')
-    .addEventListener('keyup', function(event) {
-        if (event.code === 'Enter')
-        {
-            event.preventDefault();
-            document.querySelector('form').submit();
-        }
-    });
